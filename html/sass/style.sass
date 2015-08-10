@@ -1,0 +1,148 @@
+/* common colours */
+
+$teal: #3dbcbe
+$greyblue: #455768
+$dtextcolor: #373f48
+$grey: #999999
+$dgrey: #636363
+
+/* generic classes */
+
+.absoluteleft
+    left: 0
+
+.absoluteright
+    right: 0
+    
+.blockdisplay
+    display: block
+    
+.nopadding
+    padding: 0
+    
+.margintop30
+    margin-top: 30px
+    
+.marginside30
+    margin-left: 30px
+    margin-right: 30px
+
+/* text related classes */
+    
+.centertext
+    text-align: center
+    
+.text-button-large
+    font-size: 20px
+    font-weight: bold
+    
+.text-button-small
+    font-size: 12px
+    
+.basetext
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+    
+.uppercase
+    text-transform: uppercase
+    
+/* main classes */
+    
+.content-title
+    @extend .basetext
+    font-size: 30px
+    @extend .uppercase
+    @extend .centertext
+    color: $teal
+    margin: 80px 0 0 0
+    
+.content-text
+    @extend .basetext
+    font-size: 14px
+    color: $dtextcolor
+
+.splash
+    background-image: url("../imgs/snow_house.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    
+.container
+    height: 100%
+    width: 100%
+    position: relative
+    
+.sliderbuttons
+    position: absolute
+    top: calc(50% - 19.5px)
+    color: white
+    font-size: 28px
+    background-color: $teal
+    padding: 5px
+    
+.bar-footer
+    border: none
+    height: 60px
+    
+.bar-footer-secondary
+    background-color: $teal
+    border: none
+    height: 30px
+    bottom: 60px
+    
+.secondaryfooter-text
+    position: absolute
+    top: calc(50% - 10.5px)
+    color: white
+    font-size: 14px
+    padding: 0 5px
+    @extend .basetext
+    
+.footerblockbuttons
+    @extend .blockdisplay
+    background-color: $greyblue
+    width: 100%
+    height: 100%
+    @extend .centertext
+    @extend .basetext
+    color: white
+    @extend .uppercase
+    padding: 10px 5px
+    
+.contentblockbuttons
+    @extend .footerblockbuttons
+    height: auto
+    
+    
+.stars
+    padding: 10px
+    
+.stars-active
+    border: 1px $teal solid
+    color: $teal
+    
+/* IDs */
+    
+#complete
+    @extend .secondaryfooter-text
+    @extend .uppercase
+    
+#dispute
+    @extend .secondaryfooter-text
+    
+#rate-text
+    margin: 50px 5px 0 5px
+    @extend .centertext
+    
+#rate-experience
+    @extend .blockdisplay
+    @extend .margintop30
+    @extend .uppercase
+    
+#stars-container
+    margin: 50px 5px
+    font-size: 30px
+    color: $grey
+    
+#comments
+    resize: none
+    border: 1px $dgrey solid

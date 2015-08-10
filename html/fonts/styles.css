@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "eden-font";
+  src:url("eden-font.eot");
+  src:url("eden-font.eot?#iefix") format("embedded-opentype"),
+    url("eden-font.woff") format("woff"),
+    url("eden-font.ttf") format("truetype"),
+    url("eden-font.svg#eden-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "eden-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="eden-icon-"]:before,
+[class*=" eden-icon-"]:before {
+  font-family: "eden-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eden-icon-arrow-back:before {
+  content: "a";
+}
+.eden-icon-arrow-front:before {
+  content: "b";
+}
+.eden-icon-billing:before {
+  content: "c";
+}
+.eden-icon-cal:before {
+  content: "d";
+}
+.eden-icon-camera:before {
+  content: "e";
+}
+.eden-icon-info:before {
+  content: "f";
+}
+.eden-icon-visa:before {
+  content: "g";
+}
+.eden-icon-x:before {
+  content: "h";
+}
+.eden-icon-list:before {
+  content: "i";
+}
+.eden-icon-lock:before {
+  content: "j";
+}
+.eden-icon-mail:before {
+  content: "k";
+}
+.eden-icon-map:before {
+  content: "l";
+}
+.eden-icon-check:before {
+  content: "m";
+}
+.eden-icon-marker:before {
+  content: "n";
+}
+.eden-icon-more:before {
+  content: "o";
+}
+.eden-icon-check-square:before {
+  content: "p";
+}
+.eden-icon-checkmark:before {
+  content: "q";
+}
+.eden-icon-person:before {
+  content: "r";
+}
+.eden-icon-phone:before {
+  content: "s";
+}
+.eden-icon-clock:before {
+  content: "t";
+}
+.eden-icon-gear:before {
+  content: "u";
+}
+.eden-icon-rain:before {
+  content: "v";
+}
+.eden-icon-snowflake:before {
+  content: "w";
+}
+.eden-icon-grass:before {
+  content: "x";
+}
+.eden-icon-grass2:before {
+  content: "y";
+}
+.eden-icon-sun:before {
+  content: "z";
+}
+.eden-icon-triangle-down:before {
+  content: "A";
+}
+.eden-icon-home:before {
+  content: "B";
+}
+.eden-icon-slider:before {
+  content: "C";
+}

@@ -1,0 +1,115 @@
+/* common colours */
+/* generic classes */
+.absoluteleft {
+  left: 0; }
+
+.absoluteright {
+  right: 0; }
+
+.blockdisplay, .footerblockbuttons, .contentblockbuttons, #rate-experience {
+  display: block; }
+
+.nopadding {
+  padding: 0; }
+
+.margintop30, #rate-experience {
+  margin-top: 30px; }
+
+.marginside30 {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+/* text related classes */
+.centertext, .content-title, .footerblockbuttons, .contentblockbuttons, #rate-text {
+  text-align: center; }
+
+.text-button-large {
+  font-size: 20px;
+  font-weight: bold; }
+
+.text-button-small {
+  font-size: 12px; }
+
+.basetext, .content-title, .content-text, .secondaryfooter-text, #complete, #dispute, .footerblockbuttons, .contentblockbuttons {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.uppercase, .content-title, .footerblockbuttons, .contentblockbuttons, #complete, #rate-experience {
+  text-transform: uppercase; }
+
+/* main classes */
+.content-title {
+  font-size: 30px;
+  color: #3dbcbe;
+  margin: 80px 0 0 0; }
+
+.content-text {
+  font-size: 14px;
+  color: #373f48; }
+
+.splash {
+  background-image: url("../imgs/snow_house.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.sliderbuttons {
+  position: absolute;
+  top: calc(50% - 19.5px);
+  color: white;
+  font-size: 28px;
+  background-color: #3dbcbe;
+  padding: 5px; }
+
+.bar-footer {
+  border: none;
+  height: 60px; }
+
+.bar-footer-secondary {
+  background-color: #3dbcbe;
+  border: none;
+  height: 30px;
+  bottom: 60px; }
+
+.secondaryfooter-text, #complete, #dispute {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  color: white;
+  font-size: 14px;
+  padding: 0 5px; }
+
+.footerblockbuttons, .contentblockbuttons {
+  background-color: #455768;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 10px 5px; }
+
+.contentblockbuttons {
+  height: auto; }
+
+.stars {
+  padding: 10px; }
+
+.stars-active {
+  border: 1px #3dbcbe solid;
+  color: #3dbcbe; }
+
+/* IDs */
+#rate-text {
+  margin: 50px 5px 0 5px; }
+
+#stars-container {
+  margin: 50px 5px;
+  font-size: 30px;
+  color: #999999; }
+
+#comments {
+  resize: none;
+  border: 1px #636363 solid; }
+
+/*# sourceMappingURL=style.css.map */
